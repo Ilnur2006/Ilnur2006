@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Заявления</title>
+</head>
+<body>
+    <div class="upper">
+        <div class="upper-text">
+          <h2> Демо экзамен </h2> 
+       </div>
+      </div>
+      <form action="#" class="container-block">
+        <h1>Мои Заявления</h1>
+        <div class="contact-form">
+            <div id="applicationsList"></div>
+            <h1>Новое Заявление</h1>
+            <label for="applicationText">Текст заявления:</label>
+            <textarea id="applicationText" name="applicationText" required></textarea><br><br>
+            <button type="submit">Отправить Заявление</button>
+         </form>
+
+    <div id="message" style="color: red;"></div>
+
+    <script src="applications.js"></script>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="upper">
+        <div class="upper-text">
+          <h2> Демо экзамен </h2> 
+       </div>
+      </div>
+      <form action="#" class="container-block">
+        <h1>Вход</h1>
+        <div class="contact-form">
+            <label for="username">Логин:<br>
+                <input type="text" id="username" name="username" required placeholder="Введите логин..." ><br>
+              </label>
+              <label for="password">Пароль:<br>
+                <input type="password" id="password" name="password" required placeholder="Введите пароль..." ><br>
+             </label>
+             <div class="buttlon">
+                <button class="main-form-button buttlon" type="#"><a href="заявления.html">Вход</a> </button>
+            </div>
+        </div>
+        
+      </form>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Заявления</title>
+</head>
+<body>
+    <div class="upper">
+        <div class="upper-text">
+          <h2> Демо экзамен </h2> 
+       </div>
+      </div>
+      <form action="#" class="container-block">
+        <h1>Мои Заявления</h1>
+        <div class="contact-form">
+            <div id="applicationsList"></div>
+            <h1>Новое Заявление</h1>
+            <label for="applicationText">Текст заявления:</label>
+            <textarea id="applicationText" name="applicationText" required></textarea><br><br>
+            <button type="submit">Отправить Заявление</button>
+         </form>
+
+    <div id="message" style="color: red;"></div>
+
+    <script src="applications.js"></script>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="upper">
+        <div class="upper-text">
+          <h2> Демо экзамен </h2> 
+       </div>
+    <form method="post">
+        <input type="text" name="car_number" placeholder="Номерной знак автомобиля" required>
+        <textarea name="description" placeholder="Описание нарушения" required></textarea>
+        <button type="submit">Подать заявление</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+.upper{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background-color: #00008B; 
+    border-radius: 20px; 
+}
+    
+.upper-text{
+    display: inline-block;
+    position: absolute;
+    left: 35px;     
+    top: -20px;
+    font-size: 30px;
+    color: #fff;
+} 
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.container{
+    display: inline-block;
+    position: absolute;
+    left: 36%;
+    margin: 100px auto;
+    width: 400px;
+    height: 550px;
+    background-color: #00008B;
+    border-radius: 20px;  
+}
+.container-block{
+    display: inline-block;
+    position: absolute;
+    left: 36%;
+    margin: 150px auto;
+    width: 400px;
+    height: 300px;
+    background-color: #00008B;
+    border-radius: 20px;
+}
+
+
+label {
+    display: block;
+    margin-top: 1px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    /* display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff; */
+}
+
+input {
+    display: block;
+    width: 93%;
+    margin: auto;
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+input.submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    opacity: 1;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.buttlon {
+    text-align: center;
+    margin: o auto;
+    margin-top: 1px;   
+    background-color: #ffffff;
+    color: #00008B;
+    padding: 0.1rem 0.3rem;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.1s;
+    border-radius: 10px;
+}
+
+#applicationsList {
+    margin-bottom: 20px;
+}
+
+.application {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
